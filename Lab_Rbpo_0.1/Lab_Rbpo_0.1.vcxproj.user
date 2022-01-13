@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-person --fN Danila --sN Perov --lN Sergeevich --age 20 -person --fN Danila2 --sN Perov2 --lN Sergeevich2 --age 21 -person --fN Danila3 --sN Perov3 --lN Sergeevich3 --age 23 -person --fN Danila4 --sN Perov4 --lN Sergeevich4 --age 24</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-person --fN Danila --sN Perov --lN Sergeevich --age 20 -person --fN Danila2 --sN Perov2 --lN Sergeevich2 --age 21 -person --fN Danila3 --sN Perov3 --lN Sergeevich3 --age 23 -person --fN Danila4 --sN Perov4 --lN Sergeevich4 --age 24</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-person --fN Danila --sN Perov --lN Sergeevich --age 20 -person --fN Danila2 --sN Perov2 --lN Sergeevich2 --age 21 -person --fN Danila3 --sN Perov3 --lN Sergeevich3 --age 23 -person --fN Danila4 --sN Perov4 --lN Sergeevich4 --age 24</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-person --fN Danila --sN Perov --lN Sergeevich --age 20 -person --fN Danila2 --sN Perov2 --lN Sergeevich2 --age 21 -person --fN Danila3 --sN Perov3 --lN Sergeevich3 --age 23 -person --fN Danila4 --sN Perov4 --lN Sergeevich4 --age 24</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
